@@ -18,8 +18,8 @@ public class Application {
         numberSortSize,
         TestUtils.generateRandomIntegerArray(numberSortSize)
       ),
-      new InitialExtractor("우하하 123 ABC 푸하하"),
-      new NumberCombination("우리나라 만세")
+      new InitialExtractor("우리나라 만세"),
+      new NumberCombination("apdkf35k47n1t2")
     );
     testCase.forEach(Question::solve);
   }
